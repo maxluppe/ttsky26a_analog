@@ -523,8 +523,6 @@ MACRO tt_um_maxluppe_ttsky26a_analog
         RECT 95.150 1.000 112.770 1.400 ;
         RECT 114.470 1.000 132.090 1.400 ;
         RECT 133.790 1.000 151.410 1.400 ;
-      LAYER met5 ;
-        RECT 62.140 199.980 104.450 215.180 ;
   END
 END tt_um_maxluppe_ttsky26a_analog
 END LIBRARY

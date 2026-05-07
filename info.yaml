@@ -36,6 +36,7 @@ pinout:
   ui[7]: ""
 
   # Outputs
+<<<<<<< HEAD
   uo[0]: "VoutP_NAND"
   uo[1]: "VoutM_NAND"
   uo[2]: "VoutP_AO22"
@@ -44,6 +45,16 @@ pinout:
   uo[5]: "VoutM_OAI211"
   uo[6]: "VoutM_MX21"
   uo[7]: "VoutP_MX21"
+=======
+  uo[0]: "VoutP_OAI211"
+  uo[1]: "VoutM_OAI211"
+  uo[2]: "VoutP_NAND"
+  uo[3]: "VoutM_NAND"
+  uo[4]: "VoutP_AO22"
+  uo[5]: "VoutM_AO22"
+  uo[6]: "VoutP_MX21"
+  uo[7]: "VoutM_MX21"
+>>>>>>> f6c04774d2ff80ba284542fa45e98b555d6a9dc0
 
   # Bidirectional pins
   uio[0]: "Vout_DIGOTA"
@@ -56,12 +67,17 @@ pinout:
   uio[7]: ""
 
   # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
+<<<<<<< HEAD
   ua[0]: "VinP"
   ua[1]: "VinM"
   ua[2]: ""
   ua[3]: ""
   ua[4]: ""
   ua[5]: ""
+=======
+  ua[0]: "vip"
+  ua[1]: "vim"
+>>>>>>> f6c04774d2ff80ba284542fa45e98b555d6a9dc0
 
 # Do not change!
 yaml_version: 6
