@@ -65,7 +65,6 @@ module NAND_Comparator_MUX21_NI ( CLK, VinP, VinM, OutP, OutM ) ;
 
 endmodule
 
-<<<<<<< HEAD
 module Comparator_OAI211 ( CLK, VinP, VinM, OutP, OutM ) ;
 
     input CLK ;
@@ -124,24 +123,16 @@ module Digital_Analog_Comparator (
 	VoutP_OAI211, VoutM_OAI211,
 	Vout_DIGOTA
 	) ;
-=======
-module Digital_Analog_Comparator ( CLK_COMP, VinP, VinM, VoutP_NAND, VoutM_NAND, VoutP_AO22, VoutM_AO22, VoutP_MX21, VoutM_MX21 ) ;
->>>>>>> f6c04774d2ff80ba284542fa45e98b555d6a9dc0
 
 	input CLK_COMP;
 	input VinP, VinM;
 	output VoutP_NAND, VoutM_NAND;
 	output VoutP_AO22, VoutM_AO22;
 	output VoutP_MX21, VoutM_MX21;
-<<<<<<< HEAD
 	output VoutP_OAI211, VoutM_OAI211;
 	output Vout_DIGOTA;
 	
 	(* keep_hierarchy = "yes" *) NAND_Comparator_NAND02 Comp1a (
-=======
-	
-	NAND_Comparator_NAND02 Comp1a (
->>>>>>> f6c04774d2ff80ba284542fa45e98b555d6a9dc0
 		.CLK(CLK_COMP),
 		.VinP(VinP),
 		.VinM(VinM),
@@ -149,23 +140,15 @@ module Digital_Analog_Comparator ( CLK_COMP, VinP, VinM, VoutP_NAND, VoutM_NAND,
 		.OutM(VoutM_NAND)
 	) ;
 	
-<<<<<<< HEAD
 	(* keep_hierarchy = "yes" *) NAND_Comparator_AO22 Comp2 (
-=======
-	NAND_Comparator_AO22 Comp2 (
->>>>>>> f6c04774d2ff80ba284542fa45e98b555d6a9dc0
 		.CLK(CLK_COMP),
 		.VinP(VinP),
 		.VinM(VinM),
 		.OutP(VoutP_AO22),
 		.OutM(VoutM_AO22)
 	) ;
-	
-<<<<<<< HEAD
+
 	(* keep_hierarchy = "yes" *) NAND_Comparator_MUX21_NI Comp5 (
-=======
-	NAND_Comparator_MUX21_NI Comp5 (
->>>>>>> f6c04774d2ff80ba284542fa45e98b555d6a9dc0
 		.CLK(CLK_COMP),
 		.VinP(VinP),
 		.VinM(VinM),
@@ -173,7 +156,6 @@ module Digital_Analog_Comparator ( CLK_COMP, VinP, VinM, VoutP_NAND, VoutM_NAND,
 		.OutM(VoutM_MX21)
 	) ;
 	
-<<<<<<< HEAD
 	(* keep_hierarchy = "yes" *) Comparator_OAI211 Comp6 (
 		.CLK(CLK_COMP),
 		.VinP(VinP),
@@ -187,7 +169,5 @@ module Digital_Analog_Comparator ( CLK_COMP, VinP, VinM, VoutP_NAND, VoutM_NAND,
 		.VinM(VinM),
 		.Out(Vout_DIGOTA)
 	) ;
-	
-=======
->>>>>>> f6c04774d2ff80ba284542fa45e98b555d6a9dc0
+
 endmodule
