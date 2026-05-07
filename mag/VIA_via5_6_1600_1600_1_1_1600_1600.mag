@@ -1,19 +1,6 @@
 magic
 tech sky130A
-timestamp 1778098411
-<< error_p >>
-rect -71 59 89 80
-rect -71 -59 -59 59
-rect 71 -59 89 59
-rect -71 -80 89 -59
+timestamp 1778197206
 << metal4 >>
-rect -80 -59 -59 59
-rect 59 -59 80 59
-<< via4 >>
-rect -59 -59 59 59
-<< metal5 >>
-rect -71 59 71 80
-rect -71 -59 -59 59
-rect 59 -59 71 59
-rect -71 -80 71 -59
+rect -80 -59 80 59
 << end >>

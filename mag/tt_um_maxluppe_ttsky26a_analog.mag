@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1778195210
+timestamp 1778197206
 << metal2 >>
 rect 15256 43769 15362 43780
 rect 15256 43713 15267 43769
@@ -428,7 +428,7 @@ rect 22634 0 22814 200
 rect 26498 0 26678 26498
 rect 30362 0 30542 26898
 use ttsky26a_analog  ttsky26a_analog_0 /mnt/d/Ubuntu/OpenROAD-flow-scripts/flow/designs/src/ttsky26a_analog/mag
-timestamp 1778098411
+timestamp 1778197206
 transform 1 0 9598 0 1 36892
 box 238 0 12550 6800
 << labels >>
