@@ -20,4 +20,23 @@ module tt_um_maxluppe_ttsky26a_analog (
     input  wire       rst_n     // reset_n - low to reset
 );
 
+    // All output pins must be assigned. If not used, assign to 0.
+    assign uio_out [7:1] = 0;
+    assign uio_oe [7:1] = 0;
+	assign uio_oe [0] = 1;
+    
+    // List all unused inputs to prevent warnings
+    wire _unused = &{ena, rst_n, ui_in, 1'b0};
+
+    (* keep_hierarchy = "yes" *) Digital_Analog_Comparator u0 (
+        .CLK_COMP(clk),//clk),
+        .VinP(ua[0]),
+        .VinM(ua[1]),
+        .VoutP_NAND(uo_out[0]), .VoutM_NAND(uo_out[1]),
+        .VoutP_AO22(uo_out[2]), .VoutM_AO22(uo_out[3]),
+        .VoutP_MX21(uo_out[7]), .VoutM_MX21(uo_out[6]),
+        .VoutP_OAI211(uo_out[4]), .VoutM_OAI211(uo_out[5]),
+		.Vout_DIGOTA(uio_out[0])
+  );
+  
 endmodule

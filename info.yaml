@@ -20,6 +20,7 @@ project:
   # List your project's source files here. Source files must be in ./src and you must list each source file separately, one per line:
   source_files:        
     - "project.v"
+    - "Digital_Analog_Comparator.v"
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
@@ -35,17 +36,17 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: "vout"
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "VoutP_NAND"
+  uo[1]: "VoutM_NAND"
+  uo[2]: "VoutP_AO22"
+  uo[3]: "VoutM_AO22"
+  uo[4]: "VoutP_OAI211"
+  uo[5]: "VoutM_OAI211"
+  uo[6]: "VoutM_MX21"
+  uo[7]: "VoutP_MX21"
 
   # Bidirectional pins
-  uio[0]: ""
+  uio[0]: "Vout_DIGOTA"
   uio[1]: ""
   uio[2]: ""
   uio[3]: ""
@@ -55,8 +56,8 @@ pinout:
   uio[7]: ""
 
   # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
-  ua[0]: "vip"
-  ua[1]: "vim"
+  ua[0]: "VinP"
+  ua[1]: "VinM"
   ua[2]: ""
   ua[3]: ""
   ua[4]: ""
