@@ -1,23 +1,10 @@
 magic
 tech sky130A
-timestamp 1778261364
-<< error_p >>
-rect -71 59 89 80
-rect -71 -59 -59 59
-rect 71 -59 89 59
-rect -71 -80 89 -59
+timestamp 1778272837
 << metal4 >>
-rect -80 -59 -59 59
-rect 59 -59 80 59
-<< via4 >>
-rect -59 -59 59 59
-<< metal5 >>
-rect -71 59 71 80
-rect -71 -59 -59 59
-rect 59 -59 71 59
-rect -71 -80 71 -59
+rect -80 -59 80 59
 << properties >>
-string GDS_END 27366
-string GDS_FILE /mnt/d/Ubuntu/OpenROAD-flow-scripts/flow/results/sky130hd/ttsky26a_analog/gds/ttsky26a_analog.gds
-string GDS_START 27170
+string GDS_END 61018
+string GDS_FILE ../gds/ttsky26a_analog.gds
+string GDS_START 60950
 << end >>
