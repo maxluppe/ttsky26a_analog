@@ -118,6 +118,8 @@ MACRO ttsky26a_analog
         RECT 14.160 2.555 56.450 32.805 ;
       LAYER met4 ;
         RECT 14.150 2.480 56.460 32.880 ;
+      LAYER met5 ;
+        RECT 14.150 15.520 56.460 30.720 ;
   END
 END ttsky26a_analog
 END LIBRARY

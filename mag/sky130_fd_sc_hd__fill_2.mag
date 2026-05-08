@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1778098411
+timestamp 1778261364
 << nwell >>
 rect -38 261 222 582
 << pwell >>
@@ -41,4 +41,7 @@ port 5 nsew
 rlabel comment s 0 0 0 0 4 fill_2
 << properties >>
 string FIXED_BBOX 0 0 184 544
+string GDS_END 5134
+string GDS_FILE /mnt/d/Ubuntu/OpenROAD-flow-scripts/flow/results/sky130hd/ttsky26a_analog/gds/ttsky26a_analog.gds
+string GDS_START 3754
 << end >>

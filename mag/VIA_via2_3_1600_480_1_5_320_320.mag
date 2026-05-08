@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1778098411
+timestamp 1778261364
 << metal1 >>
 rect -80 13 80 24
 rect -80 -13 -77 13
@@ -23,4 +23,8 @@ rect -19 -13 -13 13
 rect 13 -13 19 13
 rect 45 -13 51 13
 rect -77 -16 77 -13
+<< properties >>
+string GDS_END 3698
+string GDS_FILE /mnt/d/Ubuntu/OpenROAD-flow-scripts/flow/results/sky130hd/ttsky26a_analog/gds/ttsky26a_analog.gds
+string GDS_START 3246
 << end >>
