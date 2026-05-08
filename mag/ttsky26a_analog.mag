@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1778197206
+timestamp 1778199549
 << metal1 >>
 rect 5736 6616 6040 6644
 rect 276 6480 12512 6576
@@ -2445,29 +2445,29 @@ transform 1 0 11132 0 1 5984
 box -160 -118 160 118
 << labels >>
 rlabel metal2 s 7576 6703 7604 6800 4 VoutM_AO22
-port 2 nsew
+port 1 nsew
 rlabel metal2 s 5920 6703 5948 6800 4 VoutM_MX21
-port 3 nsew
+port 2 nsew
 rlabel metal2 s 7944 0 7972 97 4 VoutM_NAND
-port 4 nsew
+port 3 nsew
 rlabel metal2 s 6104 0 6132 97 4 VoutM_OAI211
-port 5 nsew
+port 4 nsew
 rlabel metal2 s 7760 6703 7788 6800 4 VoutP_AO22
-port 6 nsew
+port 5 nsew
 rlabel metal2 s 5736 6703 5764 6800 4 VoutP_MX21
-port 7 nsew
+port 6 nsew
 rlabel metal2 s 7760 0 7788 97 4 VoutP_NAND
-port 8 nsew
+port 7 nsew
 rlabel metal2 s 6288 0 6316 97 4 VoutP_OAI211
-port 9 nsew
+port 8 nsew
 rlabel metal2 s 8496 6703 8524 6800 4 Vout_DIGOTA
-port 10 nsew
+port 9 nsew
 rlabel metal2 s 7392 6703 7420 6800 4 cntrl
-port 11 nsew
+port 10 nsew
 rlabel metal2 s 7208 6703 7236 6800 4 ua[0]
-port 12 nsew
+port 11 nsew
 rlabel metal2 s 7024 6703 7052 6800 4 ua[1]
-port 13 nsew
+port 12 nsew
 << properties >>
 string FIXED_BBOX 0 0 12800 6800
 << end >>
