@@ -18,6 +18,17 @@ For specifications and instructions, see the [analog specs page](https://tinytap
 
 - [Enabling GitHub Pages](https://tinytapeout.com/faq/#my-github-action-is-failing-on-the-pages-part)
 
+## About the Project
+Each comparator topology presents distinct characteristics regarding propagation delay, power consumption, area occupation, switching behavior, metastability robustness, and regenerative capability. Therefore, evaluating multiple architectures — such as NAND-based, AO22-based, MUX-based, OAI211-based, and tri-state regenerative comparators — allows designers to explore different trade-offs between speed, energy efficiency, and implementation complexity.
+
+Therefore, this project aims to develop and evaluate different Digital-to-Analog Comparators (DACs) based on various comparator topologies.
+
+- Topology #1: NAND Comparator
+- Topology #2: NAND Comparator with A220(And-And-Or)
+- Topology #3: NAND and MUXes Comparator
+- Topology #4: OAI211 Comparator
+- Topology #5: DIGOTA(Digital Operational Transcondutance Amplifier) Comparator
+
 ## Resources
 
 - [FAQ](https://tinytapeout.com/faq/)
